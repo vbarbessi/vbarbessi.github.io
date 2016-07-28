@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Chewy|Courgette|Shrikhand" rel="stylesheet">
+		<link rel = "stylesheet" href="MyStyles.css">
+		<title> The Girls Who Code Experience </title>
+	</head>
+	<body>
+		<img src = "girls-who-code.png">
+		<h1>Victoria's Girls Who Code Portfolio</h1>
+		
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">About Me</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+	<div class = "modal-header">
+		<span class="close"> close </span>
+		<h2>About Me</h2>
+	</div>
+	<div class = "modal-body">
+		<p>About Me and stuff</p>
+	</div>
+	<div class = "modal-footer">
+		<h3> words </h3>
+	</div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>		
+				
+		<h2> Scratch Projects </h2>
+		<img src="Monster_Party.gif"> 
+		<a href = "https://scratch.mit.edu/projects/114997754/"> Monste r Party </a>
+		<img src = "Paddle_Ball.png">
+		<a href =  "https://scratch.mit.edu/projects/115073985/"> Paddle Ball </a>
+		<img src = "Guessing_Game.png">
+		<a href = "https://scratch.mit.edu/projects/115185997/"> Guessing Game </a>
+		<img src = "Pig.png">
+		<a href = "https://scratch.mit.edu/projects/115188963/"> Pig </a>
+		<img src = "Jukebox.png">
+		<a href = "https://scratch.mit.edu/projects/115299985/"> Jukebox </a>
+		<p>
+		</p>
+		<h2> Python Projects <h2>
+		<p> 
+			Obamicon Assignment
+		</p>
+		<img src = "justin.png"> <img src = "love.png"> <img src = "Obamicon_Code.png">
+		<p>
+			Bouncing Ball Assignment
+		</p>
+		<img src = "bouncingBall.gif"> <img src = "bouncingBall_Code.png">
+		<p>
+			Snow Assignment
+		</p>
+		<img src = "snow.gif"> <img src = "snow_Code.png">
+		<p>
+			Runner Game Assignment
+		</p>
+		<img src = "Runner_Game.png"> <img src = "runnergame_Code.png">
+	</body>
+	
+</html>

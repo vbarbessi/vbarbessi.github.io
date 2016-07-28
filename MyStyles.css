@@ -1,0 +1,102 @@
+h1 {
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	color: #cc66ff; 
+	font-size: 70px;
+
+}
+
+h2{
+	font-family: 'Chewy', cursive;
+	text-align: center;
+	color: #993399;
+	font-size: 55px;
+}
+
+p {
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	color: #660033
+	font-size: 40px;
+}
+
+#myBtn {
+	background-color: #00cc99;
+	border: 2px solid red;
+	color: red; 
+	padding: 15px 32px;
+	text-decoration: none;
+	font-family: 'Chewy' , cursive;
+	font-size: 20px;
+	
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 55px;
+    border: 1px solid #888;
+    width: 80%;
+	font-size: 55px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+body{
+	
+	background-image: url("http://www.pptbackgroundstemplates.com/backgrounds/Floral-Lace-Ornament-Backgrounds.jpg");
+}
